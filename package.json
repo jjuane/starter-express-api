@@ -2,9 +2,9 @@
     "name": "crypto-trading-bot",
     "version": "1.0.0",
     "description": "Un bot de trading de criptomonedas que utiliza la API de Binance y Telegram para obtener datos de precios y enviar notificaciones.",
-    "main": "index.js",
+    "main": "bot 2.js",
     "scripts": {
-      "start": "node index.js"
+      "start": "node bot 2.js"
     },
     "keywords": [
       "criptomonedas",
