@@ -18,15 +18,12 @@ const logger = winston.createLogger({
 
 // Configuración de la API de Binance
 const binance = new Binance().options({
-  APIKEY: 'aIsy7d5Et4LxnFDEdN2yiWDFEVA6xfAYOhSJ6PsqM8YHXOVzmuLp5NTby2MWjWAe',
-  APISECRET: 'QQzCrApXlrVVk0CwAtPN8LQITgq2THOxIgSSoz9xbX17P9suyMXZR2WmJymLU4MZ',
+
   family: 4,
   useServerTime: true, // Opcional: para obtener la hora del servidor de Binance
 });
 
-// Configuración del bot de Telegram
-const token = '6291470858:AAHeL8PhPC8gwut4AuqNfzmr2TNohUHmKCw';
-const chatId = '5781897898';
+
 
 const bot = new TelegramBot(token, { polling: true });
 
